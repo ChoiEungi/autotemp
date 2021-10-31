@@ -1,4 +1,5 @@
 #!/bin/python
+import datetime
 import random
 
 class Temperature:
@@ -35,5 +36,4 @@ if __name__ == '__main__':
     load_dotenv()
 
     Temperature().save()
-
-    print("Checked successfully!")
+    print("Checked successfully! Date:" + str(datetime.datetime.now()))
